@@ -8,3 +8,23 @@
     color: white;
     align-items: center;
 }
+
+.task-title:hover {
+    cursor: pointer;
+    color: chartreuse;
+}
+
+.buttons-container {
+    display: flex;
+    column-gap: 5px;
+}
+
+.delete-task, .info-task {
+    color: #fff;
+    font-weight: bold;
+}
+
+.delete-task:hover, .info-task:hover {
+    cursor: pointer;
+    color: chartreuse;
+}

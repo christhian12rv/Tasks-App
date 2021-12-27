@@ -1,0 +1,52 @@
+.task-info-container, .task-info-edit {
+    background-color: #444;
+    margin: 15px 0;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+    border-radius: 5px;
+}
+
+.task-info-container h2, .task-info-edit input {
+    margin-top: 0;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    color: chartreuse;
+    flex-grow: 1;
+}
+
+.back-button-container {
+    width: 30%;
+    margin-top: 10px;
+}
+
+.task-info-container .header, .task-info-edit .header-edit {
+    display: flex;
+}
+
+.task-info-container .header .task-edit-button {
+    color: chartreuse;
+    font-size: 20px;
+}
+
+.task-info-edit .header-edit .task-edit-change-button {
+    color: chartreuse;
+    font-size: 30px;
+}
+
+.task-info-container .header .task-edit-button:hover, .task-info-edit .header-edit .task-edit-change-button:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+input, textarea {
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    border: none;
+    flex: 2;
+    background-color: #666;
+    color: #eee;
+    font-size: 16px;
+}
