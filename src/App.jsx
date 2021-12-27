@@ -55,7 +55,6 @@ const App = () => {
   }
 
   const handleTaskEdit = (taskId, title, text) => {
-    console.log("asdf")
     const newTasks = tasks.map(task => {
       if (taskId == task.id)
         return { ...task, title: title, text: text }
