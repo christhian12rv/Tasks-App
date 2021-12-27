@@ -11,18 +11,7 @@ import Header from './components/Header'
 import ItemInfo from './components/ItemInfo'
 
 const App = () => {
-  const [tasks, setTasks] = useState([
-    {
-      id: 1,
-      title: 'Estudar programação',
-      completed: false
-    },
-    {
-      id: 2,
-      title: 'Ler livros',
-      completed: true
-    }
-  ])
+  const [tasks, setTasks] = useState([])
 
   useEffect(() => {
     const fetchTasks = async () => {
